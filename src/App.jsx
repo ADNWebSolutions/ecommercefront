@@ -2,12 +2,21 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { NavLink } from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      {/* botonera temporal para probar router */}
+      <nav>
+        <NavLink to={'/productos'}>Productos</NavLink>
+        <NavLink to={'/ofertas'}>Ofertas</NavLink>
+        <NavLink to={'/nosotros'}>Nosotros</NavLink>
+        <NavLink to={'/contacto'}>Contacto</NavLink>
+        <NavLink to={'/login'}>Login</NavLink>
+      </nav>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
