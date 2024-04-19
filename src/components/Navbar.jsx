@@ -40,7 +40,11 @@ function Navbar() {
             </div>
             <div className="drawer-side">
                 <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
-                <ul className="menu p-4 w-80 min-h-full bg-base-200">
+                <ul
+                    className={`
+                    menu p-4 w-80 min-h-full bg-base-200
+                    [&_li]:border-b-[1px] [&_li]:border-slate-600 [&_li]:py-2 [&_li]:text-white
+                `}>
                     <li>
                         <NavLink to={'/'}>Home</NavLink>
                     </li>
