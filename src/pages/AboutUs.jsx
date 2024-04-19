@@ -1,7 +1,7 @@
 import React from 'react'
-import HomeBtn from '../components/microcomponents/HomeBtn'
+import HomeBtn from '../components/microcomponents/HomeBtn.jsx'
 
-function Nosotros() {
+function AboutUs() {
   return (
     <>
       <div>Nosotros</div>
@@ -10,4 +10,4 @@ function Nosotros() {
   )
 }
 
-export default Nosotros
+export default AboutUs

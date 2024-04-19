@@ -1,12 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "../components/Layout";
-import Nosotros from "../pages/Nosotros";
-import Ofertas from "../pages/Ofertas";
-import Productos from "../pages/Productos";
-
-import Contacto from "../pages/Contacto";
 import App from "../App";
 import Login from "../pages/Login";
+import AboutUs from "../pages/AboutUs";
+import Products from "../pages/Products";
+import Contact from "../pages/Contact";
+import Offers from "../pages/Offers";
 
 const router = createBrowserRouter([
     {
@@ -15,11 +14,11 @@ const router = createBrowserRouter([
         errorElement: <div>Página no encontrada</div>, //temporal
         children: [
             { path: '/', element: <App /> },
-            { path: '/nosotros', element: <Nosotros /> },
-            { path: '/productos', element: <Productos /> },
-            { path: '/contacto', element: <Contacto /> },
+            { path: '/nosotros', element: <AboutUs /> },
+            { path: '/productos', element: <Products /> },
+            { path: '/contacto', element: <Contact /> },
             { path: '/login', element: <Login /> },
-            { path: '/ofertas', element: <Ofertas /> },
+            { path: '/ofertas', element: <Offers /> },
         ]
     }
 ])

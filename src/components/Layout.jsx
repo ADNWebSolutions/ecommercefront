@@ -8,7 +8,9 @@ function Layout() {
     return (
         <div>
             <Navbar />
-            <Outlet />
+            <section className='min-h-screen w-full flex items-center justify-center'>
+                <Outlet />
+            </section>
             <WapBtn />
             <Footer />
         </div>

@@ -1,7 +1,7 @@
 import React from 'react'
-import HomeBtn from '../components/microcomponents/HomeBtn'
+import HomeBtn from '../components/microcomponents/HomeBtn.jsx'
 
-function Productos() {
+function Products() {
     return (
         <>
             <div>Productos</div>
@@ -10,4 +10,4 @@ function Productos() {
     )
 }
 
-export default Productos
+export default Products

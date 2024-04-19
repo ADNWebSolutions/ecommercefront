@@ -1,7 +1,7 @@
 import React from 'react'
-import HomeBtn from '../components/microcomponents/HomeBtn'
+import HomeBtn from '../components/microcomponents/HomeBtn.jsx'
 
-function Ofertas() {
+function Offers() {
   return (
     <>
       <div>Ofertas</div>
@@ -10,4 +10,4 @@ function Ofertas() {
   )
 }
 
-export default Ofertas
+export default Offers
